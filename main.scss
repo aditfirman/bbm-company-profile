@@ -377,7 +377,7 @@ footer {
     padding: 28px;
     
 
-    
+
 
     .logo {
         padding: 1rem;
@@ -429,6 +429,28 @@ footer {
     
     footer {
         text-align: center;
+    }
+
+    .card-footer {
+        padding: 1rem;
+        h6 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .follow-us {
+            width: 26px !important;
+            margin-right: 8px;
+        }
+
+        p a {
+            font-size: 14px;
+        }
+        
     }
 
   }

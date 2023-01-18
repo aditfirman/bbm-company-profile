@@ -331,4 +331,21 @@ footer .copyright {
   footer {
     text-align: center;
   }
+  .card-footer {
+    padding: 1rem;
+  }
+  .card-footer h6 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .card-footer p {
+    font-size: 14px;
+  }
+  .card-footer .follow-us {
+    width: 26px !important;
+    margin-right: 8px;
+  }
+  .card-footer p a {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=main.css.map */

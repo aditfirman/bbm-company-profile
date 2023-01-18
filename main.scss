@@ -38,18 +38,19 @@ html {
                 height: 260px !important;
                 object-fit: cover !important;
                 object-position: bottom center !important;
-            }            
+            }
         }
     }
 }
 
-@media screen and (max-width:620px){
+@media screen and (max-width:620px) {
     header {
         .swiper {
+
             .swiper-button-prev,
-.swiper-button-next {
-    display: none;
-}
+            .swiper-button-next {
+                display: none;
+            }
         }
     }
 }
@@ -373,9 +374,9 @@ header {
 // Footer
 footer {
     border-top: 1.2px dashed #d0d0d0;
-    background-color: rgba(232, 243, 214,0.6);
+    background-color: rgba(232, 243, 214, 0.6);
     padding: 28px;
-    
+
 
 
 
@@ -385,6 +386,7 @@ footer {
 
     .card-footer {
         padding: 1rem;
+
         h6 {
             font-weight: 600;
         }
@@ -397,10 +399,11 @@ footer {
             width: 20px;
             margin-right: 8px;
         }
-        
+
     }
 
-    .hubungi,.about {
+    .hubungi,
+    .about {
         a {
             text-decoration: none;
             color: black;
@@ -421,18 +424,19 @@ footer {
 
 }
 
-@media screen and (max-width:620px){
+@media screen and (max-width:620px) {
     footer.logo {
-      text-align: center;
-      padding: 1rem;
+        text-align: center;
+        padding: 1rem;
     }
-    
+
     footer {
         text-align: center;
     }
 
     .card-footer {
         padding: 1rem;
+
         h6 {
             font-size: 18px;
             font-weight: 600;
@@ -448,9 +452,9 @@ footer {
         }
 
         p a {
-            font-size: 14px;
+            font-size: 15px;
         }
-        
+
     }
 
-  }
+}

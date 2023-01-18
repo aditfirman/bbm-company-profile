@@ -1,0 +1,372 @@
+// Breakpoint
+$hd: min-width 1366px;
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #E8F3D6;
+}
+
+@media screen and (max-width:820px) {
+    .hubungi-kami {
+        text-decoration: none;
+        color: white;
+        margin-left: auto;
+        padding: 8px 16px;
+        border-radius: 8px;
+        background-color: #FF7B54;
+        display: block;
+        text-align: center;
+    }
+
+    .nav-link {
+        text-align: center;
+        font-weight: 500;
+        margin: 4px 0px;
+    }
+
+    header {
+        .swiper {
+            img {
+                border-radius: 8px !important;
+                height: 260px !important;
+                object-fit: cover !important;
+                object-position: bottom center !important;
+            }            
+        }
+    }
+}
+
+@media screen and (max-width:620px){
+    header {
+        .swiper {
+            .swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+        }
+    }
+}
+
+
+
+@media screen and (min-width:1366px) {
+    .navbar {
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        .navbar-nav {
+            margin: auto;
+            font-weight: 500;
+            color: black;
+        }
+
+        .hubungi-kami {
+            text-decoration: none;
+            color: white;
+            margin-left: auto;
+            padding: 8px 16px;
+            border-radius: 8px;
+            background-color: #FF7B54;
+            display: block;
+        }
+
+    }
+
+}
+
+// Header
+header {
+    margin-top: 16px;
+
+    .swiper {
+        img {
+            border-radius: 8px;
+        }
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #FF7B54 !important;
+        width: 20px !important;
+        border-radius: 8px !important;
+    }
+
+    .swiper-button-next {
+        right: 6%;
+    }
+
+    .swiper-button-prev {
+        left: 6%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        position: absolute;
+        top: 50%;
+        width: 35px !important;
+        height: 35px !important;
+        margin-top: calc(-1 * var(--swiper-navigation-size)/ 2);
+        z-index: 10;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        color: black !important;
+        padding: 21px;
+        background: #FF7B54;
+        border-radius: 8px;
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-family: swiper-icons;
+        font-size: 18px;
+        text-transform: none !important;
+        letter-spacing: 0;
+        text-transform: none;
+        font-variant: initial;
+        line-height: 1;
+        color: white;
+    }
+}
+
+
+
+
+// Our Services
+.our-services {
+    background-color: #E8F3D6;
+    margin-top: 20px;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    border-radius: 25px 25px 0 0;
+
+    .headline {
+        text-align: center;
+        margin-bottom: 28px;
+
+        h2 {
+            font-weight: 700;
+            font-size: 32px;
+            text-transform: capitalize;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .card {
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+        p {
+            text-align: justify;
+        }
+
+        img {
+            padding: 36px;
+            background-color: #e6e6e6;
+        }
+
+        .hubungi-kami {
+            text-decoration: none;
+            color: white;
+            margin-left: auto;
+            padding: 8px 16px;
+            border-radius: 8px;
+            background-color: #FF7B54;
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+// Industri
+.our-industry {
+    background-color: white;
+    margin-top: -20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-radius: 25px 25px 0 0;
+
+    .headline {
+        text-align: left;
+        margin-bottom: 28px;
+
+        h2 {
+            font-weight: 700;
+            font-size: 32px;
+            text-transform: capitalize;
+        }
+
+        p {
+
+            font-size: 16px;
+        }
+    }
+
+    .card-industry {
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 12px;
+        }
+
+        .card-text {
+            font-size: 14px !important;
+            font-weight: 300;
+            text-align: justify;
+            padding: 10px;
+        }
+    }
+
+    img {
+        border-radius: 16px;
+    }
+
+    .swiper-button-prev-industry,
+    .swiper-button-next-industry {
+        position: static;
+        top: 50%;
+        width: 35px !important;
+        height: 35px !important;
+        margin-top: calc(-1 * var(--swiper-navigation-size)/ 2);
+        z-index: 10;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        color: black !important;
+        padding: 21px;
+        background: #FF7B54;
+        border-radius: 8px;
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-family: swiper-icons;
+        font-size: 18px;
+        text-transform: none !important;
+        letter-spacing: 0;
+        text-transform: none;
+        font-variant: initial;
+        line-height: 1;
+        color: white;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #FF7B54 !important;
+        width: 20px !important;
+        border-radius: 8px !important;
+    }
+
+    @media screen and (max-width:991px) {
+
+        .swiper-button-prev-industry,
+        .swiper-button-next-industry {
+            display: none;
+        }
+
+        .headline {
+            text-align: center;
+            margin-bottom: 28px;
+
+            h2 {
+                font-weight: 500;
+                font-size: 32px;
+            }
+        }
+    }
+}
+
+// Why BBM Logistics
+.why-bbm {
+    background-color: #E8F3D6;
+    margin-top: 20px;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    border-radius: 25px 25px 0 0;
+
+    .headline {
+        text-align: center;
+        margin-bottom: 28px;
+
+        h2 {
+            font-weight: 700;
+            font-size: 28px;
+            text-transform: capitalize;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+    }
+
+    .card-vp {
+        margin: 8px 0px;
+    }
+
+    .card-vp:hover {
+        transform: translateY(-8px);
+    }
+
+    .card-body:hover {
+        box-shadow: #FF7B5429 0px 10px 36px 0px, #FF7B5429 0px 0px 0px 1px;
+
+    }
+
+    .logo {
+        max-width: 80px;
+        background-color: #FF7B54;
+        padding: 14px;
+        border-radius: 24px;
+        margin: auto;
+        position: relative;
+    }
+
+    .card-body {
+        text-align: center;
+        margin-top: -30px;
+        padding: 36px 8px 8px 8px;
+        border-radius: 24px;
+        font-size: 16px;
+        font-weight: 300;
+        background-color: white;
+    }
+
+    .kerjasama {
+        text-align: center;
+        margin-top: 26px;
+    }
+
+    .penawaran {
+        text-decoration: none;
+        color: white;
+        padding: 12px 32px;
+        border-radius: 8px;
+        background-color: #FF7B54;
+        text-align: center;
+    }
+
+}

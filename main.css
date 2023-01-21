@@ -9,6 +9,9 @@ html {
 .navbar {
   background-color: #E8F3D6;
 }
+.navbar .active {
+  font-weight: 600 !important;
+}
 
 *.hubungi-kami {
   text-decoration: none;
@@ -112,6 +115,7 @@ header .swiper-button-next::after {
 }
 
 .our-services {
+  scroll-margin-top: 98px !important;
   background-color: #E8F3D6;
   margin-top: 20px;
   padding-top: 32px;

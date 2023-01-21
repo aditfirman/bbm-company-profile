@@ -13,6 +13,10 @@ html {
 
 .navbar {
     background-color: #E8F3D6;
+
+    .active {
+        font-weight: 600 !important;
+    }
 }
 
 *.hubungi-kami {
@@ -148,6 +152,7 @@ header {
 
 // Our Services
 .our-services {
+    scroll-margin-top: 98px !important;
     background-color: #E8F3D6;
     margin-top: 20px;
     padding-top: 32px;

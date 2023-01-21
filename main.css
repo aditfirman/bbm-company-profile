@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -62,7 +62,7 @@ header .swiper .swiper-button-next {
   }
 }
 header {
-  margin-top: 16px;
+  margin-top: 116px;
 }
 header .swiper img {
   border-radius: 8px;
@@ -130,6 +130,9 @@ header .swiper-button-next::after {
   border: none;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
+.our-services .card h5 {
+  font-weight: 600;
+}
 .our-services .card p {
   text-align: justify;
 }
@@ -153,7 +156,7 @@ header .swiper-button-next::after {
   margin-top: -20px;
   padding-top: 32px;
   padding-bottom: 32px;
-  border-radius: 25px 25px 0 0;
+  border-radius: 60px 60px 0 0;
 }
 .our-industry .headline {
   text-align: left;
@@ -169,7 +172,7 @@ header .swiper-button-next::after {
 }
 .our-industry .card-industry .card-title {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   margin-top: 12px;
 }
@@ -287,6 +290,9 @@ header .swiper-button-next::after {
   background-color: #FF7B54;
   text-align: center;
 }
+.why-bbm h6 {
+  font-weight: 600;
+}
 
 footer {
   border-top: 1.2px dashed #d0d0d0;
@@ -349,5 +355,224 @@ footer .copyright {
   }
   .card-footer p a {
     font-size: 15px;
+  }
+}
+section.about {
+  margin-top: 98px;
+  background-color: #E8F3D6;
+  overflow: hidden;
+}
+section.about .headline {
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+section.about .headline span {
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+}
+section.about .headline h1 {
+  margin: 16px 0px;
+  font-weight: 700;
+  font-size: 48px;
+}
+section.about .headline p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.story {
+  margin-top: -20px;
+  border-radius: 16px 16px 0px 0px;
+  padding: 48px 0px 28px 0px;
+  background-color: white;
+}
+.story .headline {
+  text-align: left;
+  margin: 20px 0px;
+}
+.story .headline img {
+  width: 240px;
+}
+.story .headline p {
+  font-size: 32px;
+  font-weight: 700;
+}
+.story .headline span {
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  display: block;
+}
+.story .headline h2 {
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+.story .desc img {
+  border-radius: 16px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 16px;
+}
+.story .desc p {
+  text-align: justify;
+  font-size: 16px;
+}
+
+section.office {
+  margin-bottom: 30px;
+}
+section.office .headline {
+  text-align: left;
+  margin: 20px 0px;
+}
+section.office .headline img {
+  width: 240px;
+}
+section.office .headline p {
+  font-size: 28px;
+  font-weight: 700;
+}
+section.office .headline span {
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  display: block;
+}
+section.office .headline h2 {
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+section.office .office-location .jakarta {
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  height: 240px;
+  background-size: cover !important;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 22.92%, rgba(23, 23, 23, 0.50495) 58.85%, #2D2D2D 100%), url("img/office/andy-li-CpsTAUPoScw-unsplash-jakarta.jpg");
+}
+section.office .office-location .surabaya {
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  height: 240px;
+  background-size: cover !important;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 22.92%, rgba(23, 23, 23, 0.50495) 58.85%, #2D2D2D 100%), url("img/office/kevin-yudhistira-alloni-J_6Aq1epOyU-unsplash-tanjung-perak.jpg");
+}
+section.office .office-location .banjarmasin {
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  height: 240px;
+  background-size: cover !important;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 22.92%, rgba(23, 23, 23, 0.50495) 58.85%, #2D2D2D 100%), url("img/office/reiner-windo-LKETjcDVzcY-unsplash-Banjarmasin.jpg");
+}
+section.office .office-location .content {
+  position: relative;
+  top: 50%;
+  color: #fff;
+}
+section.office .office-location .content h6 {
+  font-weight: 600;
+}
+section.office .office-location .content p {
+  margin-bottom: 6px;
+  text-align: justify;
+  font-size: 14px;
+  color: white;
+}
+section.office .office-location .content a {
+  margin-right: 8px;
+  display: inline;
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+section.our-team .headline {
+  text-align: center;
+  margin: 20px 0px;
+}
+section.our-team .headline img {
+  width: 240px;
+}
+section.our-team .headline p {
+  font-size: 28px;
+  font-weight: 700;
+}
+section.our-team .headline span {
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  display: block;
+}
+section.our-team .headline h2 {
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+section.our-team img.teams {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 16px;
+}
+section.our-team .myTeams-Bottom {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+section.our-team .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+@media screen and (max-width: 414px) {
+  section.story .headline,
+section.office .headline {
+    text-align: left;
+    margin: 20px 0px;
+  }
+  section.story .headline p,
+section.office .headline p {
+    font-size: 22px !important;
+    font-weight: 700;
+  }
+  section.story .headline span,
+section.office .headline span {
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    display: block;
+  }
+  section.our-team .headline {
+    text-align: center;
+    margin: 20px 0px;
+  }
+  section.our-team .headline p {
+    font-size: 22px !important;
+    font-weight: 700;
+  }
+  section.our-team .headline span {
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    display: block;
+  }
+  section.about .headline h1 {
+    margin: 16px 0px;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  section.about .headline p {
+    font-size: 16px;
+    font-weight: 300;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -10,7 +10,17 @@ html {
   background-color: #E8F3D6;
 }
 
-@media screen and (max-width: 820px) {
+*.hubungi-kami {
+  text-decoration: none;
+  color: white;
+  margin-left: auto;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #FF7B54;
+  display: block;
+}
+
+@media screen and (max-width: 844px) {
   .hubungi-kami {
     text-decoration: none;
     color: white;
@@ -26,6 +36,9 @@ html {
     font-weight: 500;
     margin: 4px 0px;
   }
+  header {
+    margin-top: 100px !important;
+  }
   header .swiper img {
     border-radius: 8px !important;
     height: 260px !important;
@@ -35,7 +48,7 @@ html {
        object-position: bottom center !important;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 1024px) {
   header .swiper .swiper-button-prev,
 header .swiper .swiper-button-next {
     display: none;
@@ -50,15 +63,6 @@ header .swiper .swiper-button-next {
     margin: auto;
     font-weight: 500;
     color: black;
-  }
-  .navbar .hubungi-kami {
-    text-decoration: none;
-    color: white;
-    margin-left: auto;
-    padding: 8px 16px;
-    border-radius: 8px;
-    background-color: #FF7B54;
-    display: block;
   }
 }
 header {
@@ -156,7 +160,7 @@ header .swiper-button-next::after {
   margin-top: -20px;
   padding-top: 32px;
   padding-bottom: 32px;
-  border-radius: 60px 60px 0 0;
+  border-radius: 25px 25px 0 0;
 }
 .our-industry .headline {
   text-align: left;
@@ -228,7 +232,7 @@ header .swiper-button-next::after {
     margin-bottom: 28px;
   }
   .our-industry .headline h2 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 32px;
   }
 }
@@ -331,7 +335,10 @@ footer .copyright {
   font-weight: 500;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 640px) {
+  header {
+    margin-top: 98px !important;
+  }
   footer.logo {
     text-align: center;
     padding: 1rem;
@@ -574,5 +581,15 @@ section.office .headline span {
   section.about .headline p {
     font-size: 16px;
     font-weight: 300;
+  }
+  header {
+    margin-top: 100px !important;
+  }
+  .our-services .headline h2, .our-industry .headline h2, .why-bbm .headline h2 {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+  }
+  .our-services .headline p, .our-industry .headline p, .why-bbm .headline p {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -250,7 +250,7 @@ header .swiper-button-next::after {
   background-color: #e9f0de;
   margin-top: 20px;
   padding-top: 32px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   border-radius: 25px 25px 0 0;
 }
 .why-bbm .headline {
@@ -601,4 +601,40 @@ section.office .headline span {
   .our-services .headline p, .our-industry .headline p, .why-bbm .headline p {
     font-size: 16px;
   }
+}
+section.portfolio {
+  background-color: white;
+  margin-top: -25px;
+  padding-top: 32px;
+  padding-bottom: 40px;
+  border-radius: 25px 25px 0 0;
+}
+section.portfolio .headline {
+  text-align: center;
+  margin-bottom: 28px;
+}
+section.portfolio .headline h2 {
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: capitalize;
+}
+section.portfolio .headline p {
+  font-size: 16px;
+}
+section.portfolio .highlight {
+  text-align: center;
+}
+section.portfolio .highlight img {
+  border-radius: 16px;
+}
+section.portfolio .myPortfolio {
+  margin-top: 16px;
+}
+section.portfolio .myPortfolio img.porto {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 16px;
 }/*# sourceMappingURL=main.css.map */

@@ -38,6 +38,9 @@
   <!-- Swiper -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <!-- EndSwiper -->
+  <!-- Fancy Box -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  <!-- End Fancy Box -->
 </head>
 
 <body>
@@ -274,6 +277,59 @@
   </section>
   <!-- End Section Why Logistics -->
 
+  <!-- Portfolio -->
+  <section class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="headline">
+          <h2>Our Portfolio</h2>
+          <div class="col-lg-6 offset-lg-3">
+            <p>Berikut foto dan video dokumentasi saat proses pengiriman barang&#8211;barang yang dikirimkan oleh
+              Customer kami</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="highlight">
+          <div class="col-lg-10 offset-lg-1">
+            <a data-fancybox="video-gallery" href="img/video/pipa-besi-bbm.mp4">
+              <img class="img-fluid" src="img/video/thumb.jpg" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container">
+          <div class="swiper myPortfolio">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a data-fancybox data-src="img/portfolio/1.jpg">
+                  <img src="img/portfolio/1.jpg" class="porto" alt="">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a data-fancybox data-src="img/portfolio/2.jpg">
+                  <img src="img/portfolio/2.jpg" class="porto" alt="">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a data-fancybox data-src="img/portfolio/3.jpg">
+                  <img src="img/portfolio/3.jpg" class="porto" alt="">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a data-fancybox data-src="img/portfolio/4.jpg">
+                  <img src="img/portfolio/4.jpg" class="porto" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Portfolio -->
+
   <!-- Footer -->
   <footer>
     <div class="container">
@@ -420,6 +476,42 @@
         disableOnInteraction: false,
       },
     });
+
+    // portfolio
+    var swiper = new Swiper(".myPortfolio", {
+      spaceBetween: 10,
+      slidesPerView: 4.8,
+      // loop: true,
+      freeMode: true,
+      // Breakpoint
+      breakpoints: {
+        320: {
+          centeredSlides: true,
+          slidesPerView: 1.3,
+          spaceBetween: 10
+        },
+        640: {
+          slidesPerView: 1.8,
+          spaceBetween: 20,
+          centeredSlides: false,
+        },
+        768: {
+          slidesPerView: 2.4,
+          spaceBetween: 20,
+          centeredSlides: false,
+        },
+        1024: {
+          centeredSlides: false,
+          slidesPerView: 3.4,
+          spaceBetween: 15,
+        },
+        1366: {
+          centeredSlides: false,
+          slidesPerView: 4.1,
+          spaceBetween: 15,
+        }
+      },
+    });
   </script>
   <!-- tawk.to -->
   <!--Start of Tawk.to Script-->
@@ -435,6 +527,9 @@
     })();
   </script>
   <!--End of Tawk.to Script-->
+  <!-- Fancy Box -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <!-- End Fancy Box -->
   <!-- End Script -->
 </body>
 

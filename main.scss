@@ -323,7 +323,7 @@ header {
     background-color: #e9f0de;
     margin-top: 20px;
     padding-top: 32px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     border-radius: 25px 25px 0 0;
 
     .headline {
@@ -775,4 +775,48 @@ section.our-team {
             }
         }
     }
+}
+
+// Portfolio
+section.portfolio {
+    background-color: white;
+    margin-top: -25px;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    border-radius: 25px 25px 0 0;
+    .headline {
+        text-align: center;
+        margin-bottom: 28px;
+
+        h2 {
+
+            font-weight: 700;
+            font-size: 28px;
+            text-transform: capitalize;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+    }
+
+    .highlight {
+        text-align: center;
+        img {
+            border-radius: 16px;
+        }
+    }
+
+    .myPortfolio {
+        margin-top: 16px;
+        img.porto {
+            height: 150px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 16px;
+        }
+    }
+
+    
 }

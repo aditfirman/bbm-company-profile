@@ -481,9 +481,7 @@
     var swiper = new Swiper(".myPortfolio", {
       spaceBetween: 10,
       slidesPerView: 4.8,
-      // loop: true,
-      freeMode: true,
-      // Breakpoint
+      centeredSlides: true,
       breakpoints: {
         320: {
           centeredSlides: true,
@@ -494,21 +492,25 @@
           slidesPerView: 1.8,
           spaceBetween: 20,
           centeredSlides: false,
+          freeMode:true,
         },
         768: {
           slidesPerView: 2.4,
           spaceBetween: 20,
           centeredSlides: false,
+          freeMode:true,
         },
         1024: {
           centeredSlides: false,
           slidesPerView: 3.4,
           spaceBetween: 15,
+          freeMode:true,
         },
         1366: {
           centeredSlides: false,
           slidesPerView: 4.1,
           spaceBetween: 15,
+          freeMode:true,
         }
       },
     });

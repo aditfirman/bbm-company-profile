@@ -7,7 +7,7 @@ html {
 }
 
 .navbar {
-  background-color: #E8F3D6;
+  background-color: #e9f0de;
 }
 .navbar .active {
   font-weight: 600 !important;
@@ -116,7 +116,7 @@ header .swiper-button-next::after {
 
 .our-services {
   scroll-margin-top: 98px !important;
-  background-color: #E8F3D6;
+  background-color: #e9f0de;
   margin-top: 20px;
   padding-top: 32px;
   padding-bottom: 40px;
@@ -242,7 +242,7 @@ header .swiper-button-next::after {
 }
 
 .why-bbm {
-  background-color: #E8F3D6;
+  background-color: #e9f0de;
   margin-top: 20px;
   padding-top: 32px;
   padding-bottom: 40px;
@@ -370,7 +370,7 @@ footer .copyright {
 }
 section.about {
   margin-top: 82px;
-  background-color: #E8F3D6;
+  background-color: #e9f0de;
   overflow: hidden;
 }
 section.about .headline {

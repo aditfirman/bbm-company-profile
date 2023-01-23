@@ -19,6 +19,13 @@ html {
     }
 }
 
+*.navbar-brand {
+    img {
+        max-width: 200px;
+        max-height: 56px;
+    }
+}
+
 *.hubungi-kami {
     text-decoration: none;
     color: white;
@@ -390,7 +397,7 @@ header {
 // Footer
 footer {
     border-top: 1.2px dashed #d0d0d0;
-    background-color: rgba(232, 243, 214, 0.6);
+    background-color: rgba(222, 229, 210, 0.6);
     padding: 28px;
 
     .logo {
